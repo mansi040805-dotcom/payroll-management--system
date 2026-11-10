@@ -1,0 +1,29 @@
+[
+    {
+        "leave_id": "LV001",
+        "employee_id": "EMP002",
+        "start_date": "2026-10-15",
+        "end_date": "2026-10-16",
+        "leave_type": "Paid Leave",
+        "reason": "Family function",
+        "status": "Approved"
+    },
+    {
+        "leave_id": "LV002",
+        "employee_id": "EMP002",
+        "start_date": "2026-10-22",
+        "end_date": "2026-10-22",
+        "leave_type": "Unpaid Leave",
+        "reason": "Personal work",
+        "status": "Approved"
+    },
+    {
+        "leave_id": "LV003",
+        "employee_id": "EMP004",
+        "start_date": "2026-10-22",
+        "end_date": "2026-10-22",
+        "leave_type": "Unpaid Leave",
+        "reason": "Doctor appointment",
+        "status": "Rejected"
+    }
+]

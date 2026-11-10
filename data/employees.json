@@ -1,0 +1,50 @@
+[
+    {
+        "employee_id": "EMP001",
+        "name": "Rahul Sharma",
+        "email": "rahul.sharma@techcorp.com",
+        "contact": "9876543210",
+        "department": "IT",
+        "designation": "Software Developer",
+        "joining_date": "2024-01-15",
+        "employment_type": "Salaried",
+        "basic_salary": 50000,
+        "status": "Active"
+    },
+    {
+        "employee_id": "EMP002",
+        "name": "Priya Patel",
+        "email": "priya.patel@techcorp.com",
+        "contact": "9876543211",
+        "department": "Finance",
+        "designation": "Senior Accountant",
+        "joining_date": "2023-06-01",
+        "employment_type": "Salaried",
+        "basic_salary": 60000,
+        "status": "Active"
+    },
+    {
+        "employee_id": "EMP003",
+        "name": "Amit Kumar",
+        "email": "amit.kumar@techcorp.com",
+        "contact": "9876543212",
+        "department": "Operations",
+        "designation": "Technician",
+        "joining_date": "2024-03-10",
+        "employment_type": "Hourly",
+        "hourly_rate": 300,
+        "status": "Active"
+    },
+    {
+        "employee_id": "EMP004",
+        "name": "Neha Singh",
+        "email": "neha.singh@techcorp.com",
+        "contact": "9876543213",
+        "department": "Support",
+        "designation": "Help Desk Executive",
+        "joining_date": "2025-01-20",
+        "employment_type": "Hourly",
+        "hourly_rate": 250,
+        "status": "Active"
+    }
+]

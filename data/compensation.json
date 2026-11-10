@@ -1,0 +1,38 @@
+[
+    {
+        "employee_id": "EMP001",
+        "hra": 5000,
+        "transport_allowance": 2000,
+        "medical_allowance": 1500,
+        "other_allowances": 0,
+        "performance_bonus": 0,
+        "other_deductions": 0
+    },
+    {
+        "employee_id": "EMP002",
+        "hra": 8000,
+        "transport_allowance": 3000,
+        "medical_allowance": 2000,
+        "other_allowances": 1000,
+        "performance_bonus": 5000,
+        "other_deductions": 0
+    },
+    {
+        "employee_id": "EMP003",
+        "hra": 0,
+        "transport_allowance": 1500,
+        "medical_allowance": 0,
+        "other_allowances": 0,
+        "performance_bonus": 0,
+        "other_deductions": 0
+    },
+    {
+        "employee_id": "EMP004",
+        "hra": 0,
+        "transport_allowance": 1000,
+        "medical_allowance": 0,
+        "other_allowances": 0,
+        "performance_bonus": 0,
+        "other_deductions": 500
+    }
+]
