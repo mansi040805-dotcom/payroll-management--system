@@ -313,8 +313,23 @@ def create_sample_data():
 
 def main():
     """Start the Payroll Management System application."""
+    import sys
+    import os
+
     # Load sample data on first run
     create_sample_data()
+
+    if "--web" in sys.argv or "-w" in sys.argv:
+        from api_server import app
+        port = int(os.environ.get("PORT", 5000))
+        print("=" * 60)
+        print("  PAYSPHERE MODERN WEB WORKSPACE & REST API SERVER")
+        print("=" * 60)
+        print(f"  Access UI at: http://localhost:{port}")
+        print("  Backend API:  http://localhost:5000/api")
+        print("=" * 60)
+        app.run(host="0.0.0.0", port=port, debug=False)
+        return
 
     # Create the main Tkinter window
     root = tk.Tk()

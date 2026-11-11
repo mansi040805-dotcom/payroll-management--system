@@ -34,5 +34,14 @@
         "other_allowances": 0,
         "performance_bonus": 0,
         "other_deductions": 500
+    },
+    {
+        "employee_id": "EMP005",
+        "hra": 0,
+        "transport_allowance": 0,
+        "medical_allowance": 0,
+        "other_allowances": 0,
+        "performance_bonus": 0,
+        "other_deductions": 0
     }
 ]

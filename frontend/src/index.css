@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    background-color: #f6faf8;
+    color: #17153D;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Mint Gradient matching reference image */
+.bg-mint-gradient {
+  background: linear-gradient(135deg, #BCEAC1 0%, #9FE1C4 32%, #74D7CB 72%, #52C7C2 100%);
+}
+
+.bg-mint-soft-radial {
+  background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.4) 0%, transparent 60%),
+              linear-gradient(135deg, #BCEAC1 0%, #9FE1C4 32%, #74D7CB 72%, #52C7C2 100%);
+}
+
+/* 3D Perspective Container */
+.perspective-mockup-container {
+  perspective: 1600px;
+  perspective-origin: 50% 45%;
+}
+
+/* Base 3D tilt transformation */
+.tilt-card {
+  transform: rotateY(-13.5deg) rotateX(7deg) rotateZ(1.5deg);
+  transform-style: preserve-3d;
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.4s ease;
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px) rotateY(-13.5deg) rotateX(7deg) rotateZ(1.5deg);
+  }
+  50% {
+    transform: translateY(-9px) rotateY(-12deg) rotateX(5.5deg) rotateZ(1deg);
+  }
+}
+
+.animate-floating {
+  animation: floatGentle 7s ease-in-out infinite;
+}
+
+/* Translucent Frosted Glass */
+.frosted-panel {
+  background: rgba(255, 255, 255, 0.42);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+.frosted-panel-subtle {
+  background: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Custom Scrollbar for dashboard tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f4;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a2ded1;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #54c7c1;
+}

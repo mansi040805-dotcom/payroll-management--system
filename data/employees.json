@@ -46,5 +46,17 @@
         "employment_type": "Hourly",
         "hourly_rate": 250,
         "status": "Active"
+    },
+    {
+        "employee_id": "EMP005",
+        "name": "Monsi",
+        "email": "monsi@gmail.com",
+        "contact": "1234123456",
+        "department": "IT",
+        "designation": "Moti",
+        "joining_date": "2026-11-11",
+        "employment_type": "Salaried",
+        "status": "Active",
+        "basic_salary": 500000.0
     }
 ]

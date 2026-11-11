@@ -790,5 +790,23 @@
         "break_duration": 1,
         "status": "Present",
         "total_working_hours": 8.0
+    },
+    {
+        "employee_id": "EMP005",
+        "date": "2026-11-11",
+        "check_in": "09:00",
+        "check_out": "18:00",
+        "break_duration": 1.0,
+        "status": "Unpaid Leave",
+        "total_working_hours": 0.0
+    },
+    {
+        "employee_id": "EMP005",
+        "date": "2026-11-10",
+        "check_in": "09:00",
+        "check_out": "18:00",
+        "break_duration": 1.0,
+        "status": "Half-day",
+        "total_working_hours": 8.0
     }
 ]
